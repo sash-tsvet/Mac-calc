@@ -13,6 +13,7 @@
 		A81D1C691D3F804C003BC6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81D1C671D3F804C003BC6C0 /* Main.storyboard */; };
 		A81D1C6B1D3F804D003BC6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81D1C6A1D3F804D003BC6C0 /* Assets.xcassets */; };
 		A81D1C6E1D3F804D003BC6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81D1C6C1D3F804D003BC6C0 /* LaunchScreen.storyboard */; };
+		A81D1C771D40E4E7003BC6C0 /* CalcBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = A81D1C761D40E4E7003BC6C0 /* CalcBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A81D1C6A1D3F804D003BC6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A81D1C6D1D3F804D003BC6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A81D1C6F1D3F804D003BC6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81D1C751D40E4E7003BC6C0 /* CalcBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcBrain.h; sourceTree = "<group>"; };
+		A81D1C761D40E4E7003BC6C0 /* CalcBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A81D1C621D3F804C003BC6C0 /* AppDelegate.m */,
 				A81D1C641D3F804C003BC6C0 /* ViewController.h */,
 				A81D1C651D3F804C003BC6C0 /* ViewController.m */,
+				A81D1C751D40E4E7003BC6C0 /* CalcBrain.h */,
+				A81D1C761D40E4E7003BC6C0 /* CalcBrain.m */,
 				A81D1C671D3F804C003BC6C0 /* Main.storyboard */,
 				A81D1C6A1D3F804D003BC6C0 /* Assets.xcassets */,
 				A81D1C6C1D3F804D003BC6C0 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81D1C661D3F804C003BC6C0 /* ViewController.m in Sources */,
+				A81D1C771D40E4E7003BC6C0 /* CalcBrain.m in Sources */,
 				A81D1C631D3F804C003BC6C0 /* AppDelegate.m in Sources */,
 				A81D1C601D3F804C003BC6C0 /* main.m in Sources */,
 			);
